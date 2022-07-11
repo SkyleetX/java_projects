@@ -44,7 +44,29 @@ Install guide:
 3. Create database
 4. Done
 
+# Avito
+Проект на Java с помощью сборщика Gradle. На сайте https://www.avito.ru с помощью Selenium извлекается 10 объявлений в г. Москва с фото о продаже iPhone XS 256 Gb с сортировкой по дате (новые). Полученный список выводится в txt файл с сортировкой по возрастанию цены.
+
+Required software:
+1. Web browser (e.g. Google Chrome v.102 - 103)
+2. IntelliJ Idea (Java 17, Gradle, TestNG)
+
+# Open.ru
+Task: Perform UI testing
+- run Google Chrome
+- open https://www.google.com/
+- type "Открытие" in search label
+- click Search
+- check the result of search (https://open.ru/ should be on page)
+- click to https://open.ru/
+- check that in the block "exchange rate in the Internet bank" the selling rate is higher than the buying rate for USD and EUR
+  
+Required software:
+1. Web browser (e.g. Google Chrome v.102 - 103)
+2. IntelliJ Idea (Java 17, Gradle, TestNG)
+
 Links:
 
 XAMPP 5.6.40 - https://sourceforge.net/projects/xampp/files/XAMPP%20Windows/5.6.40/
+
 https://bugify.com/download
